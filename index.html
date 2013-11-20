@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Meerkat Mobile</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
+
+<link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" />
+<link rel="stylesheet" href="css/meerkat.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile-1.3.2.min.js"></script>
+
+
+<script type="text/javascript" language="javascript">
+
+$(document).ready(function(e) {
+    //
+});
+
+</script>
+
+</head>
+
+<body>
+
+
+
+
+<!-- Primary aggregate feed page -->
+
+<div data-role="page" class="page" id="aggregateFeed" class="ui-responsive-panel">
+
+	<div data-role="panel" class="leftPanel" id="leftPanel" data-position-fixed="true" data-theme="none" data-position="left" data-display="reveal">
+        <h2><a href="#aggregateFeed" data-transition="slide">All Communities</a></h2>
+        <ul>
+        	<li class="zip"><a href="#communityMain" data-transition="slide"><span>98103</span> Seattle</a></li>
+            <li class="zip"><a href="#communityMain" data-transition="slide"><span>98004</span> Bellevue</a></li>
+            <li><a href="#communityMain" data-transition="slide">Redmond Community High School</a></li>
+            <li><a href="details_1.html" data-transition="slide">Lakeview Elementary School</a></li>
+        </ul>
+        <a href="#addFeed" data-transition="pop"><div class="addCommunity"><span class="addPlus">+</span>Add New Community</div></a>
+    </div>
+    
+    
+	<div data-role="header" data-position="fixed" class="appNav">
+    	<a href="#leftPanel" class="navMenu" data-role="none"></a>
+        <div class="navLogo"></div>
+    </div>
+
+
+    <div data-role="content" class="feed">
+    
+        <a href="#messageDetail" data-transition="slide">
+        <div class="message">
+            <div class="message_triangle"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_tornado.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        </a>
+        
+        <div class="message">
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_wind.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm</div>
+            </div>
+        </div>
+        
+        <div class="message">
+            <div class="message_triangle triangle_yellow"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_school_vikings.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service</div>
+            </div>
+        </div>
+        
+        <div class="message viewed">
+            <div class="message_triangle triangle_green"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_tornado.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        
+        <div class="message viewed">
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_wind.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        
+        <div class="message">
+            <div class="message_triangle"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_school_vikings.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        
+        <div class="message viewed">
+            <div class="message_triangle"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_tornado.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        
+        <div class="message">
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_wind.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        
+        
+        <div class="message">
+            <div class="message_triangle"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_school_vikings.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<!-- Main menu for the Community page -->
+
+<div data-role="page" class="page" id="communityMain" class="ui-responsive-panel">
+
+	<div data-role="panel" class="leftPanel" id="leftPanel" data-position-fixed="true" data-theme="none" data-position="left" data-display="reveal">
+        <h2><a href="#aggregateFeed" data-transition="slide">All Communities</a></h2>
+        <ul>
+        	<li class="zip"><a href="#communityMain" data-transition="slide"><span>98103</span> Seattle</a></li>
+            <li class="zip"><a href="#communityMain" data-transition="slide"><span>98004</span> Bellevue</a></li>
+            <li><a href="#communityMain" data-transition="slide">Redmond Community High School</a></li>
+            <li><a href="details_1.html" data-transition="slide">Lakeview Elementary School</a></li>
+        </ul>
+        <a href="#addFeed" data-transition="pop"><div class="addCommunity"><span class="addPlus">+</span>Add New Community</div></a>
+    </div>
+
+
+	<div data-role="header" data-position="fixed" class="appNav">
+    	<a href="#leftPanel" class="navMenu" data-role="none"></a>
+        <div class="navLogo"></div>
+    </div>
+
+
+    <div data-role="content" class="feed">
+    
+    	<div class="community_identity" style="background-image: url(images/img_school_1.png);">
+        	<div class="settings_link"></div>
+        	<div class="label_shadow"><h1>Lakeview Elementary School</h1></div>
+        </div>
+        
+        <a href="#aggregateFeed" data-transition="slide">
+        <div class="nav_message">
+            <div class="message_copy">
+                <h2>News & Alerts</h2>
+            </div>
+        </div>
+		</a>
+
+		<div class="nav_message">
+            <div class="message_copy">
+                <h2>Calendar</h2>
+            </div>
+        </div>
+        
+        <div class="nav_message">
+            <div class="message_copy">
+                <h2>Grade Books</h2>
+            </div>
+        </div>
+        
+        <div class="nav_message">
+            <div class="message_copy">
+                <h2>Text a Tip</h2>
+            </div>
+        </div>
+        
+        <div class="nav_message">
+            <div class="message_copy">
+                <h2>More Links</h2>
+            </div>
+        </div>
+    
+    </div>
+
+</div>
+
+
+
+
+
+<!-- Add a feed page -->
+
+<div data-role="page" class="page" id="addFeed" class="ui-responsive-panel">
+
+	<div data-role="content" class="feed">
+    
+        <div class="message">
+            <div class="message_triangle"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_tornado.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        
+        <div class="message">
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_wind.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm</div>
+            </div>
+        </div>
+        
+        <div class="message">
+            <div class="message_triangle triangle_yellow"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_school_vikings.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service</div>
+            </div>
+        </div>
+        
+        <div class="message viewed">
+            <div class="message_triangle triangle_green"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_tornado.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+        
+        <div class="message">
+            <div class="message_triangle"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_school_vikings.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans</div>
+            </div>
+        </div>
+    
+    </div>
+
+</div>
+
+
+
+
+<!-- Message detail page -->
+<!-- Primary aggregate feed page -->
+
+<div data-role="page" class="page" id="messageDetail" class="ui-responsive-panel">
+
+	<div data-role="panel" class="leftPanel" id="leftPanel" data-position-fixed="true" data-theme="none" data-position="left" data-display="reveal">
+        <h2><a href="#aggregateFeed" data-transition="slide">All Communities</a></h2>
+        <ul>
+        	<li class="zip"><a href="#communityMain" data-transition="slide"><span>98103</span> Seattle</a></li>
+            <li class="zip"><a href="#communityMain" data-transition="slide"><span>98004</span> Bellevue</a></li>
+            <li><a href="#communityMain" data-transition="slide">Redmond Community High School</a></li>
+            <li><a href="details_1.html" data-transition="slide">Lakeview Elementary School</a></li>
+        </ul>
+        <a href="#addFeed" data-transition="pop"><div class="addCommunity"><span class="addPlus">+</span>Add New Community</div></a>
+    </div>
+    
+    
+	<div data-role="header" data-position="fixed" class="appNav">
+    	<a href="#leftPanel" class="navMenu" data-role="none"></a>
+        <div class="navLogo"></div>
+    </div>
+
+
+    <div data-role="content" class="feed">
+    
+        <a href="#messageDetail" data-transition="slide">
+        <div class="message">
+            <div class="message_triangle"></div>
+            <div class="message_avatar">
+            	<div class="avatar_medium" style="background-image: url('images/avatar_tornado.png');"></div>
+            </div>
+            <div class="message_copy">
+                <div class="message_time">3h</div>
+                <h4>Tornado Warning</h4>
+                <div class="message_location">(New Orleans+)</div>
+                <div class="message_summary">The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans. The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans. The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans. The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans. The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans. The National Weather service has issued a tornado warning for 8pm in several counties in New Orleans. </div>
+            </div>
+        </div>
+        </a>
+        
+	</div>
+
+</div>
+
+</body>
+</html>
